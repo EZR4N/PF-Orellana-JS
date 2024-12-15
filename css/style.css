@@ -1,0 +1,119 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.divHeader {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.divHeader h1 {
+  font-family: fantasy;
+  margin-bottom: 1rem;
+}
+
+#contenedorProductos {
+  display: flex;
+  margin-left: 5rem;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tarjetaRestaurante {
+  display: flex;
+  justify-content: center;
+}
+
+#contenedorMenus {
+  display: flex;
+  justify-content: space-around;
+}
+
+#contenedorCarrito {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjetaItemCarrito {
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+.tarjetaTotalCarrito {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px;
+  width: 30rem;
+  border-style: solid;
+  border-color: rgb(247, 245, 245);
+}
+
+.btnElimininarItemCarrito {
+  background-color: red;
+}
+
+.btnAgregarAlCarrito {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.restaurante h2 {
+  font-style: italic;
+  font-family: fantasy;
+  text-align: center;
+}
+.restaurante img {
+  width: 15rem;
+  transition: transform 0.2s;
+}
+.restaurante img:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+#contenedorMenus {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tarjetaMenu {
+  width: 25rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(236, 236, 236);
+  margin-bottom: 5rem;
+}
+.tarjetaMenu * {
+  width: 82%;
+  margin-top: 1rem;
+}
+.tarjetaMenu img {
+  height: 16rem;
+}
+
+.divTituloRestaurante {
+  width: 100vw;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 3rem;
+}
+.divTituloRestaurante h2 {
+  margin-left: 10rem;
+  font-family: fantasy;
+}
+
+.oculta {
+  display: none !important;
+}
+
+/*# sourceMappingURL=style.css.map */
